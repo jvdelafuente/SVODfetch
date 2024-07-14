@@ -1,0 +1,103 @@
+.login-img-bg {
+  width: 100vw;
+  height: 94vh;
+  background-image: url("../assets/bg-svod.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 94vh;
+  /* background: rgb(240, 149, 45); */
+  background: linear-gradient(
+    0deg,
+    rgb(0, 0, 0) 20%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.226) 95%
+  );
+}
+
+.login-title-container {
+  width: 45vw;
+  text-shadow: 2px 2px 5px #000;
+  flex-direction: column;
+  color: #fff;
+  padding: 10%;
+  display: flex;
+  text-align: left;
+  font-family: "Wolfers", sans-serif;
+}
+.login-form-container {
+  display: flex;
+    width: 45vw;
+  padding: 10%;
+}
+.login-form-card {
+  box-shadow: 0px 1px 12px white;
+  margin-top: -25%;
+  margin-left: 20%;
+  border-radius: 5%;
+  background-color: #00000052;
+  padding: 8%;
+  border: 2.5px solid #fff;
+  width: 55%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+  justify-content: space-evenly;
+}
+.login-form-card label {
+  margin-left: 6%;
+  align-self: left;
+  color: #fff;
+  font-family: "Wolfers", sans-serif;
+  padding-left: 3%;
+  font-size: 180%;
+}
+.login-form-card p{
+  color: white;
+  font-family: "Wolfers",
+    sans-serif;
+    font-size: 120%;
+}
+.login-form-card a{
+  color: #6d9aae;
+  text-decoration: none;
+}
+.login-form-input {
+  align-self: center;
+  border: none;
+  background-color: #00000085;
+  color: #fff;
+  font-family: "Wolfers", sans-serif;
+  padding-left: 3%;
+  font-size: 140%;
+  width: 80%;
+  height: 10%;
+}
+.login-container h1 {
+  font-size: 350%;
+  margin: 0;
+}
+.login-form-card button {
+
+  align-self: center;
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 8%;
+  font-size: 200%;
+  /* align-self: end; */
+  font-family: "Wolfers", sans-serif;
+}
+
+.login-title-container span {
+  color: #6d9aae;
+}
+
+

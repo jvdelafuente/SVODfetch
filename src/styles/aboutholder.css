@@ -1,0 +1,24 @@
+.subscription-table-container{
+  padding: 10%;
+  width: 100vw;
+  font-family: 'Wolfers', sans-serif;
+  color: #fff;
+}
+.subscription-table-container a{
+  text-decoration: none;
+}
+#aboutLink {
+  margin: 40px 0px 0px 50px;
+  color: #fff;
+  font-size: 3vw;
+}
+#aboutLink:hover{
+  text-decoration: underline;
+}
+@media (max-width: 500px) {
+  #aboutLink {
+      margin: 100px 0px 0px 0px;
+      color: #fff;
+      font-size: 25px;
+    }
+}

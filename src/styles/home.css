@@ -1,0 +1,163 @@
+.home-container{
+  width: 100vw;
+  height: 85vh;
+  background-image: url(../assets/bg-home-svod.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: inset -5px -50px 40px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  /* font-size: 50px; */
+}
+
+.home-container h1{
+  text-shadow: 5px 5px 12px black;
+  font-size: 8vw;
+    color: #fff;
+    font-family: "Wolfers", sans-serif;
+
+}
+.home-container button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+    width: 15%;
+    height: auto;
+      margin-bottom: 15vh;
+      font-size: 50px;
+      justify-self: center;
+      font-family: "Wolfers", sans-serif;
+}
+.home-container a {
+  text-decoration: none;
+  color: #000;
+}
+.home-2-container{
+  
+  overflow: hidden;
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  width: 100vw;
+  height: 150vh;
+  background-color: #000;
+}
+.home-2-container h1{
+  color: #fff;
+  margin-left: 10%;
+  margin-top: 8%;
+        font-family: "Wolfers", sans-serif;
+}
+
+.home-trending{
+  box-shadow: inset 0px 0px 100px rgb(0, 0, 0);
+  /* border: 5px solid blueviolet; */
+  width: 70vw;
+  height: 23vh;
+  padding: 0;
+  margin-left: 5%;
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.home-family{
+  
+  
+  box-shadow: inset 0px 0px 100px rgb(0, 0, 0);
+    /* border: 5px solid blueviolet; */
+    width: 70vw;
+    height: 23vh;
+    padding: 0;
+  margin-left: 5%;
+      display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-tvshow{
+  box-shadow: inset 0px 0px 100px rgb(0, 0, 0);
+  /* border: 5px solid blueviolet; */
+  width: 70vw;
+  height: 23vh;
+  padding: 0;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home-container button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.home-container button:hover a{
+  cursor: pointer;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.home-carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: fit-content;
+  /* Adjust width as needed */
+}
+
+.home-carousel-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  /* Smooth transition */
+}
+
+.home-carousel-slider .home-card {
+  /* Inherit styles from your HomeCardItem.css */
+  flex: 0 0 calc(100% / 3);
+  /* Distribute evenly within slider */
+  margin: 0 5px;
+  /* Adjust spacing between cards */
+}
+
+.home-carousel-slider .active {
+  /* Additional styles for active slide (optional) */
+  transform: translateX(0);
+  /* Center active slide */
+  /* Consider adding a border or shadow for emphasis */
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  /* Adjust button color */
+  /* Optionally style the arrows using pseudo-elements */
+}
+
+.carousel-arrow.left {
+  left: 0;
+}
+
+.carousel-arrow.right {
+  right: 0;
+}

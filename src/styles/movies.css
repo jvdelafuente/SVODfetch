@@ -1,0 +1,13 @@
+.movies-container {
+  width: 100vw;
+  margin: 0;
+}
+.movies-container h2{
+  margin: 0;
+}
+.movies-grid{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));   
+      grid-gap: 2rem;
+  padding: 5%;
+}

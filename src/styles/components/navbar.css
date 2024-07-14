@@ -1,0 +1,52 @@
+
+@import url('https://fonts.cdnfonts.com/css/wolfers');
+.navbar-container{
+  box-shadow: 0px 2px 14px #fff;
+  position: fixed;
+  width: 100vw;
+  height: 6vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+    animation-name: box-shadow-decrease;
+      animation-timeline: scroll(root block);
+      animation-fill-mode: both;
+      animation-duration: 500ms;
+}
+.navbar-logo-container{
+  color:#fff;
+}
+
+.navbar-container input{
+  font-size: 120%;
+
+  font-family: 'Wolfers', sans-serif;
+}
+
+.navbar-link-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar-profile-container{
+  /* margin-right: 4%; */
+  width: 10%;
+}
+.navbar-container a{
+  letter-spacing: 1.5px;
+  font-size: 18px;
+font-family: 'Wolfers', sans-serif; 
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+@keyframes box-shadow-decrease {
+  40%{
+  box-shadow: 0px 2px 14px #fff;
+  }
+  100%{
+  box-shadow: 0px 1px 4px #fff;
+  }
+}

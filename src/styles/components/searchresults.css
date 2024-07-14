@@ -1,0 +1,26 @@
+.search-results-container {
+  width: 80vw;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    padding: 10%;
+  /* Add some spacing between items */
+
+}
+
+.search-results-container a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Wolfers", sans-serif;
+  font-size: 16px;
+}
+
+.search-results-container h2 {
+  margin: 0;
+}
+
+.search-results-container img {
+  width: 100%;
+  margin-top: 5%;
+}
