@@ -8,6 +8,7 @@
 }
 
 .info-trailer{
+  margin-top: 100px;
   width: 80vw;
   height: 80vh;
 }
@@ -32,18 +33,25 @@
   margin-left: 2%;
 }
 .info-container h2{
-  font-size: 3vw;
+  font-size: 30px;
   margin-bottom: 5%;
   color: #fff;
 }
 .info-container p {
-  font-size: 1.5vw;
+  font-size: 20px;
   margin-bottom: 5%;
   color: #fff;
 }
 
 .info-details{
-    font-size: 1vw;
+    font-size: 18px;
       margin-bottom: 5%;
       color: #fff;
+}
+
+@media (max-width:900px){
+  .info-img{
+    display: flex;
+    flex-direction: column;
+  }
 }

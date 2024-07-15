@@ -64,7 +64,6 @@ const Info = () => {
     <div className="info-container">
       <div className="info-trailer">
         {movieDetails.trailers && movieDetails.trailers.length > 0 ? (
-          // Filter trailers and select YouTube trailer if available
           movieDetails.trailers.find(
             (trailer) => trailer.site === "YouTube"
           ) ? (
@@ -91,7 +90,6 @@ const Info = () => {
               allowFullScreen
             ></iframe>
           ) : (
-            // If no YouTube trailer found, use the first trailer
             <iframe
               key={movieDetails.trailers[0].id}
               width="560"
