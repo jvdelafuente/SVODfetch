@@ -14,7 +14,7 @@
 
 .home-container h1{
   text-shadow: 5px 5px 12px black;
-  font-size: 8vw;
+  font-size: 100px;
     color: #fff;
     font-family: "Wolfers", sans-serif;
 
@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #000;
-    width: 15%;
+    width: 200px;
     height: auto;
       margin-bottom: 15vh;
       font-size: 50px;
@@ -160,4 +160,11 @@
 
 .carousel-arrow.right {
   right: 0;
+}
+
+
+@media (max-width:520px ){
+  .home-container h1{
+    font-size: 75px;
+  }
 }

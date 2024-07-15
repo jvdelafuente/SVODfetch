@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* <a href="/Movies">Movies</a> */}
         {/* <a href="/Category">Categories</a> */}
         {/* <a href="/Prices">Prices</a> */}
-        <a href="/about">About</a>
+        <a href="/about">Links</a>
       </div>
     </div>
   );

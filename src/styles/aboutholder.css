@@ -22,3 +22,15 @@
       font-size: 25px;
     }
 }
+@media (max-width: 400px) {
+  #aboutLink {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  #aboutLink {
+    margin: 100px 0px 0px 0px;
+    color: #fff;
+    font-size: 15px;
+  }
+}
