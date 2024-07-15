@@ -1,8 +1,5 @@
-# React + Vite
+#FETCHING themoviedb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pretendo hacer de este proyecto algo parecido a un "clon" de svods como netflix o similares, de momento dejo el deploy con la lógica de busqueda, recogida y muestra de información facilitada por la api.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Se puede apreciar en el código que hay lineas comentadas para que no quede el proyecto a medio hacer ya que de forma local seguiré trabajando en el.
